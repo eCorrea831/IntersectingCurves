@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AA650FE91D2315B500334ED8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA650FE81D2315B500334ED8 /* main.m */; };
+		AADF5E751D2317E4000A9DA4 /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AADF5E741D2317E4000A9DA4 /* MyPoint.m */; };
+		AADF5E781D231D57000A9DA4 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AADF5E771D231D57000A9DA4 /* Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,10 @@
 		AA650FE51D2315B500334ED8 /* IntersectingCurves */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntersectingCurves; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA650FE81D2315B500334ED8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AADF5E721D2316A5000A9DA4 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = "<group>"; };
+		AADF5E731D2317E4000A9DA4 /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
+		AADF5E741D2317E4000A9DA4 /* MyPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPoint.m; sourceTree = "<group>"; };
+		AADF5E761D231D57000A9DA4 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		AADF5E771D231D57000A9DA4 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 			children = (
 				AADF5E721D2316A5000A9DA4 /* README */,
 				AA650FE81D2315B500334ED8 /* main.m */,
+				AADF5E731D2317E4000A9DA4 /* MyPoint.h */,
+				AADF5E741D2317E4000A9DA4 /* MyPoint.m */,
+				AADF5E761D231D57000A9DA4 /* Utilities.h */,
+				AADF5E771D231D57000A9DA4 /* Utilities.m */,
 			);
 			path = IntersectingCurves;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADF5E781D231D57000A9DA4 /* Utilities.m in Sources */,
+				AADF5E751D2317E4000A9DA4 /* MyPoint.m in Sources */,
 				AA650FE91D2315B500334ED8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
