@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		AA650FE51D2315B500334ED8 /* IntersectingCurves */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntersectingCurves; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA650FE81D2315B500334ED8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AADF5E721D2316A5000A9DA4 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		AA650FE71D2315B500334ED8 /* IntersectingCurves */ = {
 			isa = PBXGroup;
 			children = (
+				AADF5E721D2316A5000A9DA4 /* README */,
 				AA650FE81D2315B500334ED8 /* main.m */,
 			);
 			path = IntersectingCurves;
@@ -239,6 +241,7 @@
 				AA650FEE1D2315B500334ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
